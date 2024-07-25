@@ -4,8 +4,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.10.34928.147
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M6.Cadastro.API", "M6.Cadastro.API\M6.Cadastro.API.csproj", "{CCF7EF29-0CE2-48F6-9444-E1A84D847E17}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2696E2AD-D837-42B3-A9DB-0F06D0649ADF} = {2696E2AD-D837-42B3-A9DB-0F06D0649ADF}
+		{ACE498B8-632B-4A93-BE9D-964F682FDEE7} = {ACE498B8-632B-4A93-BE9D-964F682FDEE7}
+		{C69D5D65-10D0-4431-BF94-759E699B883E} = {C69D5D65-10D0-4431-BF94-759E699B883E}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M6.Cadastro.Application", "M6.Cadastro.Application\M6.Cadastro.Application.csproj", "{C69D5D65-10D0-4431-BF94-759E699B883E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2696E2AD-D837-42B3-A9DB-0F06D0649ADF} = {2696E2AD-D837-42B3-A9DB-0F06D0649ADF}
+		{ACE498B8-632B-4A93-BE9D-964F682FDEE7} = {ACE498B8-632B-4A93-BE9D-964F682FDEE7}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M6.Cadastro.Domain", "M6.Cadastro.Domain\M6.Cadastro.Domain.csproj", "{2696E2AD-D837-42B3-A9DB-0F06D0649ADF}"
 EndProject
